@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8" />
+      <title>Каспер игра бетта</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/media.css" />
+
+<!-- чтобы заработала вторая картинка нуджно раскоментить одну строку нидже с стилем css/week-2.css, ничего не удалять -->
+
+      <!-- <link rel="stylesheet" href="css/week-2.css" /> -->
+
+<!-- чтобы заработала третья картинка нуджно раскоментить одну строку ниже с стилем css/week-3.css, ничего не удалять -->
+
+      <link rel="stylesheet" href="css/week-3.css" />
+   </head>
+   <body>
+      <div class="logo-top-container">
+         <div class="egg">
+            <img class="image-dragon-egg" src="assets/content/Dragon-logo-2.png" alt="" />
+         </div>
+         <div class="dragon-road">
+            Путь <br />
+            дракона
+         </div>
+         <div class="logo-top">
+            <img src="assets/content/nrg logo.svg" alt="" />
+         </div>
+      </div>
+      <div class="game-and-buttons">
+         <div class="game-area">
+            <div class="game" id="game">
+               <button class="button value1" data-matrix-id="1">
+                  <span>1</span></button
+               ><button class="button value2" data-matrix-id="2">
+                  <span>2</span></button
+               ><button class="button value3" data-matrix-id="3">
+                  <span>3</span></button
+               ><button class="button value4" data-matrix-id="4">
+                  <span>4</span></button
+               ><button class="button value5" data-matrix-id="5">
+                  <span>5</span></button
+               ><button class="button value6" data-matrix-id="6">
+                  <span>6</span></button
+               ><button class="button value7" data-matrix-id="7">
+                  <span>7</span></button
+               ><button class="button value8" data-matrix-id="8">
+                  <span>8</span></button
+               ><button class="button value9" data-matrix-id="9">
+                  <span>9</span></button
+               ><button class="button value10" data-matrix-id="10">
+                  <span>10</span></button
+               ><button class="button value11" data-matrix-id="11">
+                  <span>11</span></button
+               ><button class="button value12" data-matrix-id="12">
+                  <span>12</span></button
+               ><button class="button value13" data-matrix-id="13">
+                  <span>13</span></button
+               ><button class="button value14" data-matrix-id="14">
+                  <span>14</span></button
+               ><button class="button value15" data-matrix-id="15">
+                  <span>15</span></button
+               ><button class="button value16" data-matrix-id="16">
+                  <span>16</span>
+               </button>
+            </div>
+
+            <div class="popup-win none">
+               <div class="popup-flex">
+                  <div class="image-win">
+                     <!-- <img src="assets/content/render-1/render-1.png" alt="" /> -->
+                  </div>
+                  <div class="text-popup-win">Поздравляю! Ты прошёл испытание! Перед тобой новинка от Santek - детский унитаз-компакт Каспер</div>
+
+                  <button class="buttons-btn-area" id="go-to-home-btn">Вернуться на карту</button>
+               </div>
+            </div>
+         </div>
+         <div class="button-area">
+            <button class="buttons-btn-area" id="mix-puzzles">Перемешать</button>
+            <button class="buttons-btn-area" id="take-a-fall">Сдаться</button>
+         </div>
+      </div>
+      <div class="top-smoke"></div>
+      <div class="botoom-smoke"></div>
+      <div class="left-smoke"></div>
+      <div class="right-smoke"></div>
+      <div class="grey-bg none"></div>
+   </body>
+   <script src="js/index.js"></script>
+</html>
